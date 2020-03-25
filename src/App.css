@@ -1,0 +1,108 @@
+
+* {
+	margin: 0;
+	padding:0;
+   box-sizing: border-box;
+   font-family: 'Blinker', sans-serif;
+
+  color:white;
+
+ 
+}
+
+body{
+
+  background-color: black
+}
+
+.Router_Navbar_container{
+  padding:0 2% 0 2%;
+
+}
+.Router_container{
+  background-color:rgb(54, 54, 54);
+ 
+}
+
+.numbers_container{
+  list-style-type: none;
+  padding: 30px 0 30px 0;
+  display:grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-auto-rows:minmax(auto,50px);
+  grid-row-gap:1rem;
+  
+}
+
+.numbers{
+  text-align: center;
+}
+
+li{
+  line-height:50px;
+  margin:auto;
+ width:50px;
+ height:50px;
+  border-radius:100px;
+  background-color:rgb(129, 125, 125)
+}
+
+.selected{
+  background-color:rgb(228, 156, 62)
+}
+
+.grid_container{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+ 
+  
+  
+}
+.cost_area{
+  background-color:black ;
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  padding:5% 5% 1% 0;
+  text-align:right
+}
+.cost_area h2{
+  color:green
+}
+button{
+  width:100px;
+  height:100%;
+  background-color:rgb(109, 106, 106);
+  border-radius: 10px;
+  border: none;
+  opacity: 0.3
+}
+.prices{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.message_red{
+  background-color: rgb(216, 49, 49);
+  height:100%;
+  padding: 20px 0 20px 2%;
+  margin-bottom: 5px;
+}
+.message_default{
+  height:100%;
+  padding: 20px 0 20px 2%;
+  margin-bottom: 5px;
+
+}
+.message_green{
+  background-color:rgb(47, 129, 47);
+  height:100%;
+  padding: 20px 0 20px 2%;
+  margin-bottom: 5px;
+
+}
+/* Button has green color when game is valid*/
+.true{
+  background-color:rgb(47, 129, 47);
+  opacity: 1
+  
+}
